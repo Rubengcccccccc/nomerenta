@@ -1,5 +1,8 @@
 body {
   font-family: Arial, sans-serif;
+  background-image: url('https://i.ibb.co/C5d3QSN/ruuben.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
