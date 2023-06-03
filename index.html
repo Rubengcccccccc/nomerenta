@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Me renta quedar hoy?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>¿Me renta quedar hoy?</h1>
+  <div class="container">
+    <label for="hora">Hasta qué hora se queda la gente?</label>
+    <select id="hora">
+      <option value="-1">Hasta antes de las 12</option>
+      <option value="1">Hasta la 1</option>
+      <option value="2">Hasta las 2</option>
+      <option value="3">Más de las 2</option>
+    </select>
+
+    <label for="distancia">¿Qué distancia hay desde tu casa?</label>
+    <select id="distancia">
+      <option value="3">Menos de 300 m</option>
+      <option value="2">Menos de 500 m</option>
+      <option value="1">Menos de 850 m</option>
+      <option value="-1">Más de 1 km</option>
+    </select>
+
+    <label for="personas">¿Cuánta gente baja?</label>
+    <select id="personas">
+      <option value="-1">1 persona</option>
+      <option value="0">2 personas</option>
+      <option value="1">3 personas</option>
+      <option value="2">4 personas</option>
+      <option value="3">5 o más</option>
+    </select>
+
+    <label for="ivi">¿Queda el ivi?</label>
+    <select id="ivi">
+      <option value="20">Sí</option>
+      <option value="0">No</option>
+    </select>
+
+    <button id="calcular">Calcular</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
